@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navLink {
+  color: white;
+}
+a {
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #778899;
+}
+.navLink:hover, a:hover {
+  color: tomato;
+}
+section {
+  padding: 1rem;
+  margin: 1rem 3rem 1rem 15rem;
+  text-align: center;
+}
+p {
+  max-width: 40rem;
+  max-height: 40rem;
+  font-size: 1.5rem;
+}
