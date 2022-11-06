@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {FaHome} from "react-icons/fa";
-import {BsFillSignpostFill, BsFillSignpost2Fill} from "react-icons/bs";
+import {BsFillSignpostFill, BsFillSignpost2Fill, BsSignpost} from "react-icons/bs";
 
 const Nav = () => {
   return (
@@ -14,6 +14,9 @@ const Nav = () => {
       </Link>
       <Link to="/page3" style={styles.links} className="navLink" title="Page 3">
         <BsFillSignpost2Fill />
+      </Link>
+      <Link to="/page4" style={styles.links} className="navLink" title="Page 4">
+      <BsSignpost />
       </Link>
     </nav>
   );
