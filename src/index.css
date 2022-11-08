@@ -37,3 +37,6 @@ h1 {
   font-size: 1.9rem;
   color: #778899;
 }
+img, #page5H1  {
+  margin-left: -20rem;
+}

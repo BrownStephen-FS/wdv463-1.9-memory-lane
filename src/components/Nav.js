@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {FaHome} from "react-icons/fa";
-import {BsFillSignpostFill, BsFillSignpost2Fill, BsSignpost} from "react-icons/bs";
+import {BsFillSignpostFill, BsFillSignpost2Fill, BsSignpost, BsSignpost2} from "react-icons/bs";
 
 const Nav = () => {
   return (
@@ -18,6 +18,9 @@ const Nav = () => {
       <Link to="/page4" style={styles.links} className="navLink" title="Page 4">
       <BsSignpost />
       </Link>
+      <Link to="/page5" style={styles.links} className="navLink" title="Page 5">
+      <BsSignpost2 />
+      </Link>
     </nav>
   );
 };
@@ -30,7 +33,7 @@ const styles = {
     flexDirection: "column",
     padding: "1rem",
     backgroundColor: "#778899",
-    height: "50rem",
+    height: "90rem",
   },
   links: {
     padding: "1rem",
