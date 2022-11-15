@@ -1,7 +1,7 @@
 import React from "react";
 import ImageUrl from "../images/encryption-diagram.jpg";
 
-function Page4() {
+function Page5() {
   return (
     <section>
       <h1 id="page5H1">Securing an API</h1>
@@ -22,4 +22,4 @@ function Page4() {
   );
 }
 
-export default Page4;
+export default Page5;

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {FaHome} from "react-icons/fa";
 import {BsFillSignpostFill, BsFillSignpost2Fill, BsSignpost, BsSignpost2} from "react-icons/bs";
+import {GiPostOffice} from "react-icons/gi"
 
 const Nav = () => {
   return (
@@ -20,6 +21,9 @@ const Nav = () => {
       </Link>
       <Link to="/page5" style={styles.links} className="navLink" title="Page 5">
       <BsSignpost2 />
+      </Link>
+      <Link to="/page6" style={styles.links} className="navLink" title="Page 6">
+      <GiPostOffice />
       </Link>
     </nav>
   );
